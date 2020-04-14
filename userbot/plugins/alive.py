@@ -11,9 +11,9 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba"
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("**`Suru majburi mein kiye the…..Ab maza aa raha hain (Maa Chod Denge Sbki) ψ(｀∇´)ψ`**\n\n"
+    await alive.edit("**`Baithe baithe hue bore…..Karna hai Kuch kaam (Shuru kro yeh userbot leke prabhu ka naam) ψ(｀∇´)ψ`**\n\n"
                      "**Telethon version:- 6.9.0**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n**Python: 3.7.3**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n"
-                     "**Bot Made By:- @Hack12r\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n**"
+                     "**Bot Made By:- @Its_Pahul\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n**"
                      "**Database Status: Databases functioning normally!**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\nAlways with you, my peru master!\n`"
                      f"`My peru owner`: {DEFAULTUSER}\n"
-                     "[Deploy this userbot Now](https://github.com/Hack12R/HardcoreUserbot)")
+                     "[Deploy this userbot Now](https://github.com/Pahul124/HardcoreUserbot)")
