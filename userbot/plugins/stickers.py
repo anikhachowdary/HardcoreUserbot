@@ -50,12 +50,12 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    packname = f"{user.first_name}'s hot Vol.{pack}"
+    packname = f"{user.first_name}'s hottest Vol.{pack}"
     packshortname = f"vol_{pack}_with_{userid}"
     await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
-    file_ext_ns_ion = "Hack12R_roxx.png"
+    file_ext_ns_ion = "ItsPahul_roxx.png"
     file = await borg.download_file(reply_message.media)
     uploaded_sticker = None
     if is_a_s:
@@ -63,7 +63,7 @@ async def _(event):
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         packname = f"{user.first_name}'s Animated {pack}"
         if userid == 1037944593:
-            packshortname = "Hack12R_Animated"
+            packshortname = "ItsPahul_Animated"
         else:
             packshortname = f"Moi_animated_{pack}" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
