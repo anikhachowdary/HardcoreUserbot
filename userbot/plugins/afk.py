@@ -145,8 +145,8 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"__My Master Has Been Gone For__ `{total_afk_time}`\nWhere He Is: ~~ONLY GOD KNOWS~~ " + \
-            f"\n\n__I promise I'll back in a few light years__\n**REASON**: {reason}" \
+        message_to_reply = f"__Oye Don't Spam the chat. My Master Has Been Gone For__ `{total_afk_time}`\nWhere She Is: ~~ONLY GOD KNOWS~~ " + \
+            f"\n\n__I promise She'll back in a few light years__\n**She said me that she is going to **: {reason}" \
             if reason \
             else f"**HOLA NOOBS 😏**\n\n[Roses are red,\nViolets are blue,\nLeave me a message,\nAnd I'll get back to you...](https://telegra.ph/file/a42399b3c33aecb8d794c.jpg) "
         msg = await event.reply(message_to_reply)
